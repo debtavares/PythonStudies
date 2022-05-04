@@ -1,6 +1,6 @@
 import random
 
-def advinhacao():
+def adivinhacao():
     print("#################################")
     print("Bem vindo ao jogo de Adivinhação!")
     print("#################################")
@@ -35,8 +35,8 @@ def advinhacao():
             elif chute < numero_secreto:
                 print("Você errou! O seu chute foi maior que o número secreto.")
 
-        rodada = rodada + 1
+        rodada += 1
 
     print("Fim de jogo!")
 
-print(advinhacao())
+print(adivinhacao())
